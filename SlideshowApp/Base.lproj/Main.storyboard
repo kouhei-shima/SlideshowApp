@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo1" translatesAutoresizingMaskIntoConstraints="NO" id="sep-5p-aWf">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo1.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="sep-5p-aWf">
                                 <rect key="frame" x="20" y="44" width="374" height="230"/>
                                 <gestureRecognizers/>
                                 <constraints>
@@ -37,7 +37,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ct-Za-N4I">
-                                <rect key="frame" x="192" y="324" width="31" height="30"/>
+                                <rect key="frame" x="191.5" y="324" width="31" height="30"/>
                                 <state key="normal" title="再生"/>
                                 <connections>
                                     <action selector="startstopaction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SB1-aX-T0K"/>
@@ -92,14 +92,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo1" translatesAutoresizingMaskIntoConstraints="NO" id="dXr-tb-45X">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo1.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="dXr-tb-45X">
                                 <rect key="frame" x="20" y="20" width="374" height="504"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="504" id="pJ9-0P-jge"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X49-Ed-DWm">
-                                <rect key="frame" x="192" y="554" width="31" height="30"/>
+                                <rect key="frame" x="191.5" y="554" width="31" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="pdp-h9-IZB"/>
                                     <constraint firstAttribute="width" constant="31" id="qDJ-Pn-ZHd"/>
@@ -132,7 +132,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="photo1" width="768" height="1024"/>
+        <image name="photo1.jpeg" width="768" height="1024"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

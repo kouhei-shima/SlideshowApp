@@ -14,6 +14,9 @@
 		FC26C80925EFB075008101FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC26C80825EFB075008101FB /* Assets.xcassets */; };
 		FC26C80C25EFB075008101FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC26C80A25EFB075008101FB /* LaunchScreen.storyboard */; };
 		FC26C81525EFD259008101FB /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC26C81425EFD259008101FB /* ResultViewController.swift */; };
+		FC34CFBB25F62AF700D4D923 /* photo1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FC34CFBA25F62AF700D4D923 /* photo1.jpeg */; };
+		FC34CFBE25F62B0600D4D923 /* photo2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FC34CFBD25F62B0600D4D923 /* photo2.jpeg */; };
+		FC34CFC125F62B0D00D4D923 /* photo3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FC34CFC025F62B0D00D4D923 /* photo3.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		FC26C80B25EFB075008101FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC26C80D25EFB075008101FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC26C81425EFD259008101FB /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		FC34CFBA25F62AF700D4D923 /* photo1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo1.jpeg; sourceTree = "<group>"; };
+		FC34CFBD25F62B0600D4D923 /* photo2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo2.jpeg; sourceTree = "<group>"; };
+		FC34CFC025F62B0D00D4D923 /* photo3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo3.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				FC26C80325EFB074008101FB /* ViewController.swift */,
 				FC26C81425EFD259008101FB /* ResultViewController.swift */,
 				FC26C80525EFB074008101FB /* Main.storyboard */,
+				FC34CFBA25F62AF700D4D923 /* photo1.jpeg */,
+				FC34CFBD25F62B0600D4D923 /* photo2.jpeg */,
+				FC34CFC025F62B0D00D4D923 /* photo3.jpeg */,
 				FC26C80825EFB075008101FB /* Assets.xcassets */,
 				FC26C80A25EFB075008101FB /* LaunchScreen.storyboard */,
 				FC26C80D25EFB075008101FB /* Info.plist */,
@@ -128,8 +137,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC26C80C25EFB075008101FB /* LaunchScreen.storyboard in Resources */,
+				FC34CFBB25F62AF700D4D923 /* photo1.jpeg in Resources */,
 				FC26C80925EFB075008101FB /* Assets.xcassets in Resources */,
+				FC34CFBE25F62B0600D4D923 /* photo2.jpeg in Resources */,
 				FC26C80725EFB074008101FB /* Main.storyboard in Resources */,
+				FC34CFC125F62B0D00D4D923 /* photo3.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
