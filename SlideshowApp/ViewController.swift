@@ -93,7 +93,7 @@ class ViewController: UIViewController {
           }
           // indexの画像をstoryboardの画像にセットする
           ImageView.image = imageArray[nowIndex]
-      }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -112,5 +112,17 @@ class ViewController: UIViewController {
         }
         let name = imageName[changeImgNo]
         ImageView.image = UIImage(named: name)
+        
+        if (timer != nil) {
+        // タイマーを停止する
+        timer.invalidate()
+
+        // タイマーを削除しておく(timer.invalidateだけだとtimerがnilにならないため)
+        timer = nil
+        // ボタンの名前を再生に直しておく
+        startstop.setTitle("再生", for: .normal)
+        back.isEnabled = true
+        go.isEnabled = true
+        }
     }
 }
