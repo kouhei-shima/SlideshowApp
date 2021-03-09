@@ -11,7 +11,7 @@ class ResultViewController: UIViewController {
     
     @IBOutlet var UPImageView: UIImageView!
     
-    let images =  ["photo1", "photo2", "photo3"]
+    let images =  ["photo1.jpeg", "photo2.jpeg", "photo3.jpeg"]
     var changeImgNo = 0
     
     override func viewDidLoad() {

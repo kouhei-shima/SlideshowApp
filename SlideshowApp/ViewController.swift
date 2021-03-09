@@ -21,9 +21,9 @@ class ViewController: UIViewController {
      var timer: Timer!
 
      // スライドショーさせる画像の配列を宣言
-     var imageArray:[UIImage] = [UIImage(named: "photo1")!,UIImage(named: "photo2")!,UIImage(named: "photo3")!]
+     var imageArray:[UIImage] = [UIImage(named: "photo1.jpeg")!,UIImage(named: "photo2.jpeg")!,UIImage(named: "photo3.jpeg")!]
     
-    let imageName = ["photo1", "photo2", "photo3"]
+    let imageName = ["photo1.jpeg", "photo2.jpeg", "photo3.jpeg"]
     var changeImgNo = 0
     
     @IBAction func backaction(_ sender: Any) {
